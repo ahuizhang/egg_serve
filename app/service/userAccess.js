@@ -18,7 +18,6 @@ class userAccessService extends Service {
       token: await service.actionToken.apply(user._id),
     };
   }
-
   // async logout() {
 
   // }
