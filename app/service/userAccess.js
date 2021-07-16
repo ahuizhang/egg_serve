@@ -19,9 +19,9 @@ class userAccessService extends Service {
     };
   }
 
-  async logout() {
+  // async logout() {
 
-  }
+  // }
   async current() {
     const { ctx, service } = this;
     const _id = ctx.state.user.data._id;
