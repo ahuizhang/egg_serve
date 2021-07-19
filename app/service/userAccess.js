@@ -15,6 +15,7 @@ class userAccessService extends Service {
       ctx.throw(404, 'user password is error');
     }
     return {
+      userInfo: user,
       token: await service.actionToken.apply(user._id),
     };
   }
